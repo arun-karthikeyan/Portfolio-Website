@@ -1,0 +1,355 @@
+/*have adjusted @grid-float-breakpoint variable to 900px in the less source and have recompiled to adjust collapsing of navbar */
+
+
+/*remember to remove unnecessary fonts from the fonts folder and this file before deployment*/
+
+@font-face {
+    font-family: "lato-regular";
+    src: url('../fonts/Lato2OFL/Lato-Regular.ttf');
+    url('../fonts/Lato2OFL/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: "lato-bold";
+    src: url('../fonts/Lato2OFL/Lato-Bold.ttf');
+    url('../fonts/Lato2OFL/Lato-Bold.ttf');
+}
+@font-face {
+    font-family: "lato-black";
+    src: url('../fonts/Lato2OFL/Lato-Black.ttf');
+    url('../fonts/Lato2OFL/Lato-Black.ttf');
+}
+.lato-regular {
+    font-family: 'lato-regular', sans-serif;
+}
+.lato-bold {
+    font-family: 'lato-bold', sans-serif;
+}
+.lato-black {
+    font-family: 'lato-black', sans-serif;
+}
+
+/*modified the row class to be used instead of row-header*/
+
+.row {
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px solid;
+    min-height: 400px;
+}
+.navbar-main .navbar-brand > img {
+    height: 50px;
+    width: 260px;
+    vertical-align: middle;
+    padding: 0px 0px 0px 0px;
+}
+body {
+    padding-top: 71px;
+    z-index: 0;
+}
+.navbar-main {
+    background: #0a374c;
+    /*width: 100vw;*/
+}
+.navbar-sub {
+    background: #0f5271;
+    margin-bottom: 0px;
+    z-index: 999;
+}
+.navbar-main.navbar-inverse .navbar-nav li > a {
+    color: white;
+}
+.navbar-sub.navbar-inverse .navbar-nav li > a {
+    color: white;
+}
+.jumbo-icon {
+    font-size: 200px;
+}
+.jumbotron {
+    margin: 0px auto;
+    padding: 40px 90px;
+}
+.navbar-main.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #152937;
+}
+.navbar-main.navbar-inverse .navbar-toggle {
+    background-color: #152937;
+    position: relative;
+    top: 10.5px;
+}
+
+.jumbotron-other {
+    min-height: 120px;
+    height: 40vh;
+    background-color: #1781bf;
+    color: #0a374c;
+    font-family: 'lato-black', sans-serif;
+}
+.front-page {
+    font-family: 'lato-black', sans-serif;
+    background-color: #1781bf;
+    min-height: calc(100vh - 151px);
+    color: #0a374c;
+}
+.front-page-img {
+    height: calc(100vh - 151px);
+    min-height: 700px;
+}
+.alternate-disp {
+    display: none;
+    /*text-align: center;*/
+}
+.navbar-main .navbar-nav > li > a {
+    padding: 0px 0px auto;
+    font-size: 17px;
+    vertical-align: middle;
+    line-height: 37px;
+    font-family: 'lato-bold', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar-sub .navbar-nav > li > a {
+    padding: 0px 0px auto;
+    font-size: 16px;
+    vertical-align: middle;
+    font-family: 'lato-bold', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*fixing the .active class of navbar-nav list anchors for the affix case*/
+
+.navbar-sub .navbar-nav > .active > a, .navbar-sub .navbar-nav > .active > a:focus, .navbar-sub .navbar-nav > .active > a:hover {
+    background-image: none;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-color: inherit;
+}
+.affix {
+    /*margin-top: calc(-40vh);*/
+    top: 71px;
+    width: 100%;
+}
+.navbar-main .navbar-nav > li.mark-active > a:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+}
+.navbar-sub .navbar-nav > li.active > a:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+}
+.jumbotron.jumbotron-other img {
+    width: 249px;
+    /*width: 61.75%;*/
+}
+.navbar-main .navbar-nav>li>a:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .4s ease-out;
+    -webkit-transition: width .4s ease-out;
+    /* Chrome and Safari */
+    -moz-transition: width .4s ease-out;
+    /* FireFox */
+}
+.navbar-sub .navbar-nav>li>a:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .4s ease-out;
+    -webkit-transition: width .4s ease-out;
+    /* Chrome and Safari */
+    -moz-transition: width .4s ease-out;
+    /* FireFox */
+}
+.navbar-main .navbar-nav >li>a:hover:after {
+    background: white;
+    width: 100%;
+}
+.navbar-sub .navbar-nav >li>a:hover:after {
+    background: white;
+    width: 100%;
+}
+.navbar-fixed-top {
+    min-height: 70px;
+}
+.navbar-main .nav.navbar-nav {
+    padding-right: 5px;
+}
+.navbar-main .navbar-header {
+    position: relative;
+    min-height: 70px;
+}
+
+/*center the contents of the subnavbar*/
+
+.navbar.navbar-sub .navbar-collapse {
+    text-align: center;
+}
+.navbar.navbar-sub .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.jumbotron.jumbotron-other .jumbotron-row-break {
+    display: none;
+}
+.jumbotron.jumbotron-other .jumbotron-row-break h1 {
+    margin: 0px;
+}
+.panel-body {
+    font-size: 16px;
+    padding: 20px;
+}
+.panel-title {
+    font-size: 18px;
+    padding: 5px;
+}
+.panel-with-bg {
+    position: relative;
+    overflow: hidden;
+}
+.panel-with-bg > img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+.panel-with-bg > img + div {
+    position: relative;
+    z-index: 2;
+}
+
+/*The CSS Way of Vertical Alignment*/
+
+[child] {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*new breakdown point for navbar collapse*/
+
+@media (max-width: 899px) {
+    .navbar-main .navbar-nav > li > a {
+        line-height: 28px;
+    }
+    .navbar-main .navbar-brand > img {
+        position: absolute;
+        left: 50vw;
+        margin-left: -130px;
+    }
+    .jumbotron.jumbotron-other h1 {
+        font-size: 50px
+    }
+    .jumbotron.jumbotron-other img {
+        width: 160px;
+    }
+    #navbarsub {
+        display: none;
+    }
+    /*front-page padding removed*/
+    .front-page {
+        padding: 10px;
+        min-height: calc(100vh - 71px);
+    }
+    /*adjusting front page image height accordingly*/
+    .front-page-img {
+        height: calc(100vh - 191px);
+        min-height: 585px;
+    }
+}
+@media (max-height: 810px) {
+    .jumbotron.jumbotron-other h1 {
+        font-size: 50px
+    }
+    .jumbotron.jumbotron-other img {
+        width: 160px;
+    }
+}
+
+/*sm xs breakdown point*/
+
+@media (max-width: 767px) {
+    .jumbotron.jumbotron-other .jumbotron-row {
+        display: none;
+    }
+    .jumbotron.jumbotron-other .jumbotron-row-break {
+        display: block;
+    }
+    .jumbotron.jumbotron-other h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    /*vertical alignment with only css */
+    [parent] {
+        padding: 0px;
+    }
+    [child] {
+        margin: 0px;
+    }
+    /*initializing alternate display*/
+    .original-disp {
+        display: none;
+    }
+    .alternate-disp {
+        display: block;
+    }
+}
+@media (max-height: 710px) {
+    .jumbotron.jumbotron-other .jumbotron-row {
+        display: none;
+    }
+    .jumbotron.jumbotron-other .jumbotron-row-break {
+        display: block;
+    }
+    .jumbotron.jumbotron-other h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+@media (max-width: 480px) {
+    .navbar-main .navbar-brand > img {
+        display: none;
+    }
+    .jumbotron.jumbotron-other h1 {
+        font-size: 30px;
+    }
+    .navbar-main .navbar-brand {
+        position: absolute;
+        top: 50%;
+        height: 50px;
+        width: 80px;
+        left: 50vw;
+        margin-left: -40px;
+        margin-top: -25px;
+        align: center;
+        background-image: url('../images/mylogo-short.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-origin: padding-box;
+    }
+}
+
+/*trying to fix the fixed top navbar intra page anchor issue*/
+
+
+/*div:target {
+  padding-top: calc(70px + 58px);
+  margin-top: calc(-70px - 58px);
+}*/

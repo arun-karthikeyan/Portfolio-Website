@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-website",
+  "description": "Arun Karthikeyan's Portfolio website",
+  "main": "index.html",
+  "authors": [
+    "Arun Karthikeyan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Portfolio",
+    "Profile",
+    "Arun",
+    "Karthikeyan",
+    "Website"
+  ],
+  "homepage": "https://github.com/the3drevolution/Portfolio-Website",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#^9.1.2"
+  }
+}

@@ -1,0 +1,281 @@
+For backgrounds page, 
+experience
+university courserwork
+online coursework
+education
+achievements
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Research Page,
+nothing yet
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Skillset Page, 
+--------------
+
+Programming Languages : Java, C, C++, Javascript, MATLAB, Octave, Python
+
+Databases : Mysql, MongoDB
+
+Graph Technologies: Neo4j, Cypher, Giraph, GraphX
+
+Big Data Technologies : HBase, Hive, HDFS, Pig, Spark, MapReduce
+
+Server-Side Technologies : Node.js, Express.js, Mongoose.js, Loopback.js, Passport.js, Spring Boot, Spring Security, Spring Session
+
+Client-Side Technologies : HTML5, CSS3, Bootstrap, jQuery, Angular.js, Gulp, Grunt, Bower, Highcharts.js
+
+Testing Frameworks: Karma, Jasmine, Protractor.js
+
+Mobile Application Development : Ionic Framework, Cordova
+
+Data Modelling Tools : KNIME, MLlib
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Projects Page,
+
+Web development 
+Machine Learning
+Big Data
+Others
+
+Listing all Projects,
+--------------------
+Project Title
+Project Github
+Project Description (MUST INCLUDE ACHIEVEMENTS)
+Project Duration
+Technology Stack
+
+Project 1
+---------
+Project Title: 
+Database Query Layer Optimization
+
+Project GitHub:
+
+Project Description: 
+Analyzed and modified inefficient queries to improve performance, one to mention was the re-implementation of date-time functions using integer operations instead of using existing db functions.
+Implemented methods optimized query fetch time by 200%
+Work is live on reports.zoho.com, a business intelligence SaaS platform with millions of users
+
+Project Duration: 
+January 2014 to March 2014
+
+Technology Stack: 
+MySQL, Java
+
+Project 2
+---------
+Project Title: 
+Product Recommendations based on user sentiments – Predictive Analytics
+
+Project Github: 
+https://github.com/the3drevolution/Sentiment-Analysis.git
+
+Project Description:
+Built an online system that could recommend products to users based on user sentiments extracted from social media.
+Data Crawled from Twitter Rest API and Twitter Streaming API – JSON FORMAT (data crawling and parsing in Java)
+Secured 100% marks on the final report for the quality of the work and its perceptive documentation.
+
+Project Duration: 
+February 2015 to April 2015
+
+Technology Stack: 
+Java, Octave, Mysql, Javascript, Twitter4j.
+
+Project 3
+---------
+Project Title: 
+Data Summary in a Moving Data Window
+
+Project GitHub: 
+
+Project Description: 
+Implemented efficiently arithmetic and statistical operations for a moving data window using advanced data structure models (using segment trees) and dynamic programming.
+Implementation reduced the worst case complexity from O(N^2) (using naive approach) to O(NlogN) (using my implementation), drastically reducing the data processing time in the application-layer.
+
+Project Duration: 
+September 2013 to January 2014
+
+Technology Stack: 
+Java, JSP, JS, Mysql.
+
+Project 4
+---------
+Project Title: 
+Autonomous Debating using Natural Language Processing
+
+Project GitHub:
+
+Project Description:
+Built a system that could efficiently extract relevant pro and con statements given a topic, and present it to the user.
+The statements presented by the system had over 75% agreement with human audience.
+Scored bonus marks to a total of 108% of the maximum score for noteworthy work in the class.
+
+Project Duration: 
+September 2015 to December 2015
+
+Technology Stack: 
+Java, Matlab, Mysql, High Level NLP Tools and Modelling kits.
+
+Project 5
+---------
+Project Title: 
+Stock Market Prediction Using Hybrid Machine Learning Algorithms
+
+Project GitHub: 
+https://github.com/the3drevolution/Finance-Oracle.git
+
+Project Description: 
+Built a System to predict the direction of S&P 500 index with competitive accuracy, and presented interesting observations and patterns in the Yahoo S&P 500 data.
+Secured 100% marks in the final report for discovering interesting patterns outlined with precise experiments in the stock data.
+
+Project Duration: 
+February 2015 to April 2015
+
+Technology Stack: 
+Java, Octave, Matlab, Mysql and additional Machine Learning Tool kits and Libraries.
+
+Project 6
+---------
+Project Title: 
+Angular JS based Web Application – Ristorante Con Fusion
+
+Project GitHub: 
+https://github.com/the3drevolution/Angular-JS/tree/master/Week%204/conFusion
+
+Project Description: 
+Designed and Implemented an Angular JS + Bootstrap based Web Application making use of angular forms, controllers, services
+for a model restaurant. Also developed Unit tests in Karma + Jasmine and End to End testing using Protractor JS + Jasmine
+Secured excellent peer reviews, and 100% score from all peers for the application
+
+Project Duration: 
+January 2016 to February 2016
+
+Technology Stack: 
+Html5, CSS3, JS, Angular JS, JQuery, Bootstrap, Font-Awesome, Gulp, JSON-Server, Karma, Jasmine, Protractor JS, Phantom JS, Git
+
+Project 7
+---------
+Project Title: 
+Yelp Data Analysis using Apache Spark Data Frames
+
+Project GitHub: 
+
+Project Description: 
+Created new feature (weighted user ratings) to extract important customer reviews to rate business, and several other analysis
+including finding the most profitable business and best customers per business
+Secured 100% score for precise findings.
+
+Project Duration: 
+February 2016 to February 2016
+
+Technology Stack: 
+Hadoop, PySpark, Hive
+
+Project 8
+---------
+Project Title: 
+Twitter Trend Analysis using Hadoop PIG
+
+Project GitHub: 
+
+Project Description: 
+Collected Twitter Streaming data using the Twitter Streaming API, and Analyzed unusually high occurrences of words within a period of 10 days to capture the current trend given a query using PIG Latin scripts
+Secured 100% score for precise findings.
+
+Project Duration: 
+February 2016 to February 2016
+
+Technology Stack: 
+Hadoop, Java, PIG Latin, Map Reduce
+
+Project 9
+---------
+Project Title: 
+HTML5 CSS3 Bootstrap based Web Application (Front End)
+
+Project GitHub: 
+https://github.com/the3drevolution/Front-End-Web-UI-Frameworks/tree/master/Week%204
+
+Project Description: 
+Designed and Implemented an HTML5+ CSS3 + Bootstrap based Web Application making use of bootstrap css, javascript components and jquery for a model restaurant.
+Secured excellent peer reviews, and 100% score from all peers for the application
+
+Project Duration: 
+January 2016 to January 2016
+
+Technology Stack: 
+HTML5, CSS3, JS, JQuery, Bootstrap, Font-Awesome, Git
+
+Project 10
+----------
+Project Title:
+Starlab Web Application - Full Stack
+
+Project GitHub: 
+https://github.com/the3drevolution/StarLab-Algorithms.git
+
+Project Description: 
+
+Project Duration: 
+March 2016 to Present
+
+Technology Stack: 
+Angular.js, Node.js, Express.js, HighCharts.js, HTML5, CSS3, JS, JQuery, Bootstrap, Font-Awesome, Git
+
+Project 11
+----------
+Project Title: 
+Minibase
+
+Project GitHub: 
+https://github.com/the3drevolution/Minibase.git
+
+Project Description: 
+
+Project Duration: 
+
+Technology Stack: 
+Java, Git
+
+Project 12
+----------
+Project Title:
+Portfolio Website
+
+Project GitHub:
+https://github.com/the3drevolution/Portfolio-Website.git
+
+Project Description:
+
+Project Duration: 
+
+Technology Stack: 
+
+
+Project 13
+----------
+Project Title: 
+Ionic Framework based Hybrid Mobile Appilcation
+
+Project GitHub: 
+https://github.com/the3drevolution/Hybrid-Mobile-App-Development/tree/master/Week%204/ionic/conFusion
+
+Project Description: 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Difference between angular and angular2
+Angular 2 has far greater performance than angular 1.x
+because of "web workers"
+client side parallelization of loading content
+
+I was also wondering wbout ECMA Script / ES5, ES6, typescript
+
+angular2 supports ES6, typescript - wrting in plain js is bullshit
+so before learning angular2 we also have to learn about either typescript or ES6
+
+
